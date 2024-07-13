@@ -18,8 +18,8 @@ public class Main {
         int max = Integer.MIN_VALUE;
         int sum = 0;
         for (int i = 0; i < N-2; i++) {
-            sum = 0;
             for (int j = 0; j < N-2; j++) {
+                sum = 0;
                 for (int k = i; k < i+3; k++) {
                     for (int l = j; l < j+3; l++) {
                         sum += arr[k][l];
