@@ -34,6 +34,7 @@ public class Main {
                     }
                 }else{
                     cont=0;
+                    now = arr[i][j];
                 }
             }
         }
@@ -49,6 +50,7 @@ public class Main {
                     }
                 }else{
                     cont=0;
+                    now = arr[j][i];
                 }
             }
         }
